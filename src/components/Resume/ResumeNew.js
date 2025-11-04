@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Soumyajit_Behera.pdf";
+// Note: The actual file name is "Anbarasu Govindhasamy - Web Developer.pdf"
+// For web compatibility, please rename it to "Anbarasu_Resume.pdf" or update this import
+import pdf from "../../Assets/Anbarasu_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
