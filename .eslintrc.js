@@ -14,6 +14,6 @@ module.exports = {
     }
   },
   // Explicitly resolve plugins from project root to avoid pnpm conflicts
-  resolvePluginsRelativeTo: __dirname,
+  resolvePluginsRelativeTo: "./node_modules"
 };
 
